@@ -1,0 +1,48 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom right, rgb(204, 0, 255), yellow);
+    color: rgb(76, 252, 52);
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 60%;
+    margin: auto;
+    border: 1px solid;
+}
+
+#banner {
+    background-color: gold;
+    text-align: center;
+    border: 1px solid;
+    margin: 10px;
+}
+
+#blogpost {
+    margin: 10px;
+    border: 1 px solid;
+    background-color: rgb(6, 30, 250);
+}
+
+.post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: rgb(255, 0, 0);
+}
+
+.post .left {
+    float: left;
+    margin-right: 10px;
+}
+
+.post img {
+    width: 200px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
